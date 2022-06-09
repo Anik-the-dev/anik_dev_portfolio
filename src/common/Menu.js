@@ -1,5 +1,9 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import resume from '../myFiles/resume.pdf'
+
+
 
 const Menu = () => {
     return (
@@ -14,7 +18,7 @@ const Menu = () => {
                         <Nav.Link href="#link">Link</Nav.Link>
                         <Nav.Link href="#link">Link</Nav.Link>
                         <Nav.Link href="#link">Link</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
+                        <Nav.Link className='btn custom-btn me-2 text-light rounded px-3' href={resume} download>Download Resume</Nav.Link>
                        
                     </Nav>
                 </Navbar.Collapse>
