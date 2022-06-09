@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Readex+Pro:wght@300;400;500&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-family: 'Roboto'
+}
+
+.custom-font-weight-600{
+    font-weight: 600;
+}
+
+.custom-primary-color {
+    color: #FF5959;
+}
+
+.custom-primary-bg-color {
+    background-color: #FF5959;
+}
+
+.custom-secondary-color {
+    color: #ff891bd3;
+}
+
+.custom-secondary-bg-color {
+    background-color: #ff891bd3;
+}
+
+.custom-image-size {
+    width: 35rem;
+
+}
