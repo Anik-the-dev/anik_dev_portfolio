@@ -13,8 +13,8 @@ const Banner = () => {
                             <p className='fs-6 ' style={{ color: '#959596', fontSize: '3.5rem' }}>Secured Inventory for Dudsfashion admin only. Here Admins can analyze the growth of the business analyzing the previous data and also help to understand by statistics.Admins also can add, delete , increase and decrease items based on the production and sold.</p>
                         </div>
                         <div className='banner-btn my-3 d-md-flex align-items-center justify-content-start '>
-                            <Link className='btn custom-primary-bg-color me-2 ' to='/login'>Login to Access</Link>
-                            <Link className='btn custom-secondary-bg-color' to='/inventory'>Go Inventory</Link>
+                            <Link className='btn custom-btn me-2 ' to='/about'>About Me</Link>
+                            <Link className='btn custom-btn custom-btn-outline' to='/contact'>Contact Me</Link>
                         </div>
                     </div>
                     <div className=''>

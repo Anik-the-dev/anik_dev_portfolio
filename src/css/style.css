@@ -1,32 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Readex+Pro:wght@300;400;500&family=Roboto:ital,wght@0,400;1,300&display=swap');
 
+:root {
+    --primary-color: #FF5959;
+    --secondary-color: #ff891bd3;
+    --dark-color: #3d3d3d;
+    --light-color: #f4f4f4;
+    --success-color: #32c1d4;
+  }
+
+/* baseline CSS */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Readex Pro', sans-serif;
     font-family: 'Roboto'
 }
 
+
+/* custom style for this project */
+
+.custom-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .custom-btn-outline {
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 1px solid #FF5959;
+  }
+  
+  .custom-btn:hover {
+    transform: scale(0.98);
+  }
+  
+
 .custom-font-weight-600{
     font-weight: 600;
 }
 
 .custom-primary-color {
-    color: #FF5959;
+    color: var(--primary-color);
 }
 
 .custom-primary-bg-color {
-    background-color: #FF5959;
+    background-color: var(--primary-color);
 }
 
 .custom-secondary-color {
-    color: #ff891bd3;
+    color: var(--secondary-color);
 }
 
 .custom-secondary-bg-color {
-    background-color: #ff891bd3;
+    background-color: var(--secondary-color);
 }
 
 .custom-image-size {
     width: 35rem;
 
 }
+
