@@ -30,6 +30,11 @@ h1,h2{
     margin: 10px 0;
 }
 
+a{
+    text-decoration: none;
+    color: #333;
+}
+
 
 /* custom style for this project */
 
@@ -109,23 +114,35 @@ h1,h2{
 /* grid layout 3 column */
 .custom-grid{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
     justify-content: center;
     align-items: center;
     height: 100%;
 
 }
 
+
 /* card */
 .custom-card {
     background-color: #fff;
     color: #333;
     border-radius: 10px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 8px;
     margin: 10px;
   }
+  .custom-card-img{
+    border-radius: 8px;
+    height: 190px;
+    
+
+  }
+
+  .custom-border{
+      border: 1px solid #edecec
+  }
+
 
 
 @media only screen and (max-width: 980px) {
