@@ -25,6 +25,11 @@ h1{
     font-size: 3.5rem;
 }
 
+h1,h2{
+    line-height: 1.1;
+    margin: 10px 0;
+}
+
 
 /* custom style for this project */
 
@@ -53,6 +58,10 @@ h1{
     font-weight: 600;
 }
 
+.custom-font-weight-500{
+    font-weight: 500;
+}
+
 .custom-primary-color {
     color: var(--primary-color);
 }
@@ -74,7 +83,11 @@ h1{
 
 }
 
-@media only screen and (max-width: 600px) {
+.custom-space-btn-section{
+    width: 100px;
+}
+
+@media only screen and (max-width: 980px) {
     h1{
         font-size: 2.5rem;
     }
