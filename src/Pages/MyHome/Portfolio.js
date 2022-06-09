@@ -9,7 +9,7 @@ const Portfolio = () => {
         <Container>
             <h2 className='custom-dark-color custom-font-weight-600 fs-1 text-center'>Have a look at my <span className='custom-primary-color'>React </span>Projects</h2>
             <div className='mt-5'>
-                <div className='custom-grid my-5'>
+                <div className='custom-grid my-5 py-5'>
 
                     <div className='d-flex flex-column '>
                         <img src={duds} alt='niksmoto project' className='img-fluid custom-card-img' />
@@ -22,7 +22,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                    
+
 
                     <div className='d-flex flex-column'>
                         <img src={niksmoto} alt='niksmoto project' className='img-fluid custom-card-img custom-border' />
@@ -38,7 +38,7 @@ const Portfolio = () => {
 
 
                     <div className='d-flex flex-column '>
-                        <img src={nikseo} alt='niksmoto project' className='img-fluid custom-card-img' />
+                        <img src={nikseo} alt='niksmoto project' className='img-fluid custom-card-img ' />
                         <div className='custom-height'>
                             <p className='text-start mt-3 custom-font-weight-600'>Nik Seo.</p>
                             <p className='text-start custom-font-weight-500'>Secured Inventory for nikseo admin only. Here Admins can analyze the growth of the business analyzing the previous data and also help to understand by statistics.</p>
@@ -49,9 +49,12 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                  
+
 
                 </div>
+            </div>
+            <div className='custom-space-btn-section'>
+
             </div>
         </Container>
     );
