@@ -62,6 +62,10 @@ h1,h2{
     font-weight: 500;
 }
 
+.custom-letter-spacing{
+    letter-spacing: 2px;
+}
+
 .custom-primary-color {
     color: var(--primary-color);
 }
