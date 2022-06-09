@@ -6,12 +6,18 @@ import Menu from './common/Menu';
 import Home from './Pages/MyHome/Home';
 import './css/style.css';
 import { ToastContainer} from 'react-toastify'
+import Contact from './Pages/MyHome/Contact';
+import Portfolio from './Pages/MyHome/Portfolio';
+import About from './Pages/MyHome/About';
 function App() {
   return (
     <div>
       <Menu></Menu>
       <Routes>
          <Route path='/' element={<Home/>} />
+         <Route path='/about' element={<About/>} />
+         <Route path='/projects' element={<Portfolio/>} />
+         <Route path='/contact' element={<Contact/>} />
       </Routes>
       <ToastContainer></ToastContainer>
 
