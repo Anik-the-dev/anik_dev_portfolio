@@ -26,7 +26,8 @@ const Contact = () => {
                     <Card className='p-5 mt-5 w-75'>
                         <h2 className='fs-5'>Send Your Details Here.</h2>
 
-                        <form action="https://formsubmit.co/a250dc70983962361bf0d04422882f31" target="_blank" method="POST">
+                        <form action="https://formsubmit.co/a250dc70983962361bf0d04422882f31" 
+                        target="_blank" method="POST">
 
                             <Form.Control className='mt-3' onBlur={(e) => setName(e.target.value)} type="text" name="name" placeholder="Name" required />
 
