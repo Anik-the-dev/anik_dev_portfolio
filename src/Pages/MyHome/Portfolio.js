@@ -20,7 +20,7 @@ const Portfolio = () => {
                         projects.map(project => {
                             return (
                                 <div className='d-flex flex-column '>
-                                    <img src={duds} alt='niksmoto project' className='img-fluid custom-card-img' />
+                                    <img src={project.image_main} alt='niksmoto project' className='img-fluid custom-card-img' />
                                     <div className='custom-height'>
                                         <p className='text-start mt-3 custom-font-weight-600'>{project.name}</p>
                                         <p className='text-start custom-font-weight-500'>{project.description}</p>

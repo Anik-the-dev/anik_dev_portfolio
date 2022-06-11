@@ -20,19 +20,22 @@
 
     {
         "id":2,
-        "name": "Anik Inventory",
-        "description":"Secured Inventory for Dudsfashion admin only. Here Admins can analyze the growth of the business analyzing the previous data and also help to understand by statistics.",
-        "tools":"React,Bootstrap,MongoDB, Express, JWT, Firebase, React Router, React Query, Firebase Hook",
-        "live":"https://dudsfashion-auth.web.app/",
-        "client":"https://github.com/Anik-the-dev/Duds-Fashion-Warehouse-client",
-        "server":"https://github.com/Anik-the-dev/dudsfashion-warehouse-server",
-        "image_main":"images/duds/main.png",
-        "image_1":"images/duds/1.png",
-        "image_2":"images/duds/2.png",
-        "image_3":"images/duds/3.png",
-        "image_4":"images/duds/4.png",
-        "image_5":"images/duds/5.png",
-        "image_6":"images/duds/6.png"
+        "name": "NIks Moto",
+        "description":"Niksmoto is a manufacturer moto parts maker. Here Admins can analyze the growth of the business analyzing the previous data that help them to improve.",
+        "tools":"React,Raw CSS, Bootstrap,MongoDB, Express,Firebase, React Router, React Query, Firebase Hook",
+        "live":"https://niksmoto.web.app/",
+        "client":"https://github.com/Anik-the-dev/niks-moto-cycle-part-website",
+        "server":"https://github.com/Anik-the-dev/niks-moto-cycle-parts-website-server",
+        "image_main":"images/moto/main4.png",
+        "image_1":"images/moto/1.png",
+        "image_2":"images/moto/2.png",
+        "image_3":"images/moto/3.png",
+        "image_4":"images/moto/4.png",
+        "image_5":"images/moto/5.png",
+        "image_6":"images/moto/6.png",
+        "image_7":"images/moto/7.png",
+        "image_8":"images/moto/8.png",
+        "image_9":"images/moto/9.png"
         
         
     },
@@ -40,20 +43,17 @@
 
     {
         "id":3,
-        "name": "Duds Inventory",
-        "description":"Secured Inventory for Dudsfashion admin only. Here Admins can analyze the growth of the business analyzing the previous data and also help to understand by statistics.",
-        "tools":"React,Bootstrap,MongoDB, Express, JWT, Firebase, React Router, React Query, Firebase Hook",
-        "live":"https://dudsfashion-auth.web.app/",
-        "client":"https://github.com/Anik-the-dev/Duds-Fashion-Warehouse-client",
-        "server":"https://github.com/Anik-the-dev/dudsfashion-warehouse-server",
-        "image_main":"images/duds/main.png",
-        "image_1":"images/duds/1.png",
-        "image_2":"images/duds/2.png",
-        "image_3":"images/duds/3.png",
-        "image_4":"images/duds/4.png",
-        "image_5":"images/duds/5.png",
-        "image_6":"images/duds/6.png"
-        
+        "name": "Niks SEO Consultant",
+        "description":"My passion for technical SEO helps over 20+ clients to optimize their websites.I worked as a lead Technical SEO manager for Wedevs.I helped a retail shop 'duds fashion.",
+        "tools":"React,Html5, CSS3,Firebase, React Router",
+        "live":"https://nikseo22.web.app/",
+        "client":"https://github.com/Anik-the-dev/niks-seo-service",
+        "server":"",
+        "image_main":"images/seo/main.png",
+        "image_1":"images/seo/1.png",
+        "image_2":"images/seo/2.png",
+        "image_3":"images/seo/3.png"
+
         
     }
 ]
