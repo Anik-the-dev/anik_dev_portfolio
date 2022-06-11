@@ -14,12 +14,18 @@ const Portfolio = () => {
     }, [])
 
     const navigate = useNavigate()
-    const id = projects.id
 
-    const handleDetailedProject =()=>{
-        const url = `/details/${id}`
-        navigate(url)
-
+    const handleDetailedProject =(id)=>{
+        if(id===1){
+            navigate('/details1')
+        }
+        else if(id===2){
+            navigate('/details2')
+        }
+        else if(id===3){
+            navigate('/details3')
+        }
+ 
     }
     return (
         <Container>
@@ -35,7 +41,7 @@ const Portfolio = () => {
                                         <p className='text-start mt-3 custom-font-weight-600'>{project.name}</p>
                                         <p className='text-start custom-font-weight-500'>{project.description}</p>
                                         <div className='d-flex align-items-center justify-content-between'>
-                                            <p className='text-start custom-font-weight-600 text-success custom-cursor' onClick={handleDetailedProject}>Detailed Project</p>
+                                            <p className='text-start custom-font-weight-600 text-success custom-cursor' onClick={()=>handleDetailedProject(project.id)}>Detailed Project</p>
                                             <p className='text-start custom-font-weight-600'><a href={project.live} className='custom-primary-color'>Go Live </a></p>
                                         </div>
                                     </div>

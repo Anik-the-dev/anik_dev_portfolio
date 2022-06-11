@@ -11,6 +11,8 @@ import Portfolio from './Pages/MyHome/Portfolio';
 import About from './Pages/MyHome/About';
 import Details from './Pages/MyHome/Details';
 import Footer from './common/Footer';
+import Details2 from './Pages/MyHome/Details2';
+import Details3 from './Pages/MyHome/Details3';
 function App() {
   return (
     <div>
@@ -19,7 +21,9 @@ function App() {
          <Route path='/' element={<Home/>} />
          <Route path='/about' element={<About/>} />
          <Route path='/projects' element={<Portfolio/>} />
-         <Route path='/details/:id' element={<Details/>} />
+         <Route path='/details1' element={<Details/>} />
+         <Route path='/details2' element={<Details2/>} />
+         <Route path='/details3' element={<Details3/>} />
          <Route path='/contact' element={<Contact/>} />
       </Routes>
       <Footer></Footer>
