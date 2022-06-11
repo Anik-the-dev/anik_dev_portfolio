@@ -52,6 +52,10 @@ a{
     height: 250px;
 }
 
+.custom-cursor{
+    cursor: pointer;
+}
+
 
 /* custom style for this project */
 
