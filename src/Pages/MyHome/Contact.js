@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card, Col, Container, Form, FormControl, Row } from 'react-bootstrap';
 import { toast } from 'react-toastify';
-import anik2 from '../../images/anik_middle2.png'
+import anik2 from '../../images/contact.jpg'
 
 const Contact = () => {
     // declare the states......

@@ -13,13 +13,14 @@ import Details from './Pages/MyHome/Details';
 import Footer from './common/Footer';
 import Details2 from './Pages/MyHome/Details2';
 import Details3 from './Pages/MyHome/Details3';
+import Achievements from './Pages/MyHome/Achievements';
 function App() {
   return (
     <div>
       <Menu></Menu>
       <Routes>
          <Route path='/' element={<Home/>} />
-         <Route path='/about' element={<About/>} />
+         <Route path='/about' element={<Achievements/>} />
          <Route path='/projects' element={<Portfolio/>} />
          <Route path='/details1' element={<Details/>} />
          <Route path='/details2' element={<Details2/>} />
