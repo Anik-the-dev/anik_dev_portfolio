@@ -7,7 +7,7 @@ import resume from '../../myFiles/resume.pdf'
 
 const Achievements = () => {
     return (
-        <div className=' my-5 mx-auto' style={{ backgroundColor: '#F47C7C', paddingBottom: '120px', paddingTop: '120px' }}>
+        <div className=' mt-5 mx-auto' style={{ backgroundColor: '#F47C7C', paddingBottom: '120px', paddingTop: '120px', marginBottom:'150px' }}>
             <Container className=' ' >
                 <Row className='align-items-center '>
                     <Col sm className=''>
@@ -40,6 +40,7 @@ const Achievements = () => {
 
 
             </Container>
+            
 
         </div>
     );
