@@ -40,7 +40,16 @@ const Details = () => {
                         <div className='text-start fw-bold p-3 fs-4' style={{ color: "#FF5959" }}>
                             Project: {productDetails?.name}
                         </div>
-                        <div className='text-start  p-3'><span className='fw-bold'>Description: </span>{productDetails?.description}</div>
+                        <div className='text-start  p-3'><span className='fw-bold'>Description: </span>{productDetails?.description}
+                        <ul>
+                            <li>We use here Protected Route System for security purpose.</li>
+                            <li>Admin can add, delete and manage stocks.</li>
+                            <li>Anyone can view the homepage, about and blog page.</li>
+                            <li>Admin can increase and decrease the quantity of products.</li>
+                            <li>Using Firebase we secured the system.</li>
+                        </ul>
+                        </div>
+                        
                         <div className='text-start  p-3'>
                             <span className='fw-bold'>Tools: </span>{productDetails?.tools}
                         </div>

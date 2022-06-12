@@ -39,7 +39,16 @@ const Details2 = () => {
                         <div className='text-start fw-bold p-3 fs-4' style={{ color: "#FF5959" }}>
                             Project: {productDetails?.name}
                         </div>
-                        <div className='text-start  p-3'><span className='fw-bold'>Description: </span>{productDetails?.description}</div>
+                        <div className='text-start  p-3'><span className='fw-bold'>Description: </span>{productDetails?.description}
+                            <ul>
+                                <li>Use RequireAuth and Use RequireAdmin for unAuthorized Access.</li>
+                                <li>Use React Query for fetching Apis and UI's state management easier.</li>
+                                <li>Using React Hooks for use same code multiple times.</li>
+                                <li>Use Bootstrap for UI design.</li>
+                                <li>Use Admin Access Functionality for limiting features.</li>
+                                
+                            </ul>
+                        </div>
                         <div className='text-start  p-3'>
                             <span className='fw-bold'>Tools: </span>{productDetails?.tools}
                         </div>
@@ -59,22 +68,22 @@ const Details2 = () => {
                 <h2 className='text-center mt-5 pt-5'>Projects Screenshot</h2>
                 <hr className='w-50 mx-auto'></hr>
                 <div className='d-flex justify-content-center p-3 align-item-center w-100 my-2'>
-                    <img src={productDetails?.image_2} alt='project' style={{width:'38rem'}} className='me-5 rounded border'/>
-                    <img src={productDetails?.image_3} alt='project' style={{width:'38rem'}} className='me-5 rounded border'/>   
+                    <img src={productDetails?.image_2} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
+                    <img src={productDetails?.image_3} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
                 </div>
 
                 <div className='d-flex justify-content-center p-3 align-item-center w-100 my-2'>
-                    <img src={productDetails?.image_4} alt='project' style={{width:'38rem'}} className='me-5 rounded border'/>
-                    <img src={productDetails?.image_9} alt='project' style={{width:'38rem'}} className='me-5 rounded border'/>   
+                    <img src={productDetails?.image_4} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
+                    <img src={productDetails?.image_9} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
                 </div>
 
                 <div className='d-flex justify-content-center p-3 align-item-center w-100 my-2'>
-                    <img src={productDetails?.image_5} alt='project' style={{width:'38rem'}} className='me-5 rounded border'/>
-                    <img src={productDetails?.image_6} alt='project' style={{width:'38rem'}} className='me-5 rounded border'/>   
+                    <img src={productDetails?.image_5} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
+                    <img src={productDetails?.image_6} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
                 </div>
                 <div className='d-flex justify-content-center p-3 align-item-center w-100 my-2'>
-                    <img src={productDetails?.image_7} alt='project' style={{width:'38rem'}} className='me-5 rounded border'/>
-                    <img src={productDetails?.image_8} alt='project' style={{width:'38rem'}} className='me-5 rounded border'/>   
+                    <img src={productDetails?.image_7} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
+                    <img src={productDetails?.image_8} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
                 </div>
 
 

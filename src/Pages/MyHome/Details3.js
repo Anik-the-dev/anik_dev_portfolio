@@ -17,7 +17,6 @@ const Details3 = () => {
     }, [])
 
     const productDetails = products.find(p => p.id === 3)
-    // const { name, description, live, client, server, tools, image_main, image_1, image_2, image_3, image_4, image_5, image_6 } = productDetails
 
     return (
         <Container>
@@ -38,14 +37,24 @@ const Details3 = () => {
                         <div className='text-start fw-bold p-3 fs-4' style={{ color: "#FF5959" }}>
                             Project: {productDetails?.name}
                         </div>
-                        <div className='text-start  p-3'><span className='fw-bold'>Description: </span>{productDetails?.description}</div>
+                        <div className='text-start  p-3'><span className='fw-bold'>Description: </span>{productDetails?.description}
+                            <ul>
+                                <li>Use React router to route the dfferent section.</li>
+                                <li>Use firebase for authentication purpose.</li>
+                                <li>Use Protected Route to save the unauthorized access.</li>
+                                <li>Use raw css to design the layout.</li>
+                                <li>Use some external hooks to simplify the project.</li>
+
+
+                            </ul>
+                        </div>
                         <div className='text-start  p-3'>
                             <span className='fw-bold'>Tools: </span>{productDetails?.tools}
                         </div>
                         <div className='d-flex justify-content-start p-3 align-item-center'>
                             <a className='me-3 btn text-light' href={productDetails?.live} style={{ backgroundColor: "#FF5959" }}>Live Site</a>
                             <a className='me-3 btn text-dark' href={productDetails?.client} style={{ backgroundColor: "#ff891bd3" }}>Client Repo</a>
-                           
+
                         </div>
                     </div>
 
@@ -58,16 +67,16 @@ const Details3 = () => {
                 <h2 className='text-center mt-5 pt-5'>Projects Screenshot</h2>
                 <hr className='w-50 mx-auto'></hr>
                 <div className='d-flex justify-content-center p-3 align-item-center w-100 my-2'>
-                    <img src={productDetails?.image_1} alt='project' style={{width:'38rem'}} className='me-5 rounded border'/>
-                    <img src={productDetails?.image_2} alt='project' style={{width:'38rem'}} className='me-5 rounded border'/>   
+                    <img src={productDetails?.image_1} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
+                    <img src={productDetails?.image_2} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
                 </div>
 
                 <div className='d-flex justify-content-center p-3 align-item-center w-100 my-2'>
-                    <img src={productDetails?.image_2} alt='project' style={{width:'38rem'}} className='me-5 rounded border'/>
-                    <img src={productDetails?.image_3} alt='project' style={{width:'38rem'}} className='me-5 rounded border'/>   
+                    <img src={productDetails?.image_2} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
+                    <img src={productDetails?.image_3} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
                 </div>
 
-                
+
 
             </div>
 
