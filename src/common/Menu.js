@@ -16,6 +16,7 @@ const Menu = () => {
                         <Nav.Link ><Link className='menuitem' to='/'>Home</Link></Nav.Link>
                         <Nav.Link><Link className='menuitem' to='/about'>About</Link></Nav.Link>
                         <Nav.Link><Link className='menuitem' to='/projects'>Projects</Link></Nav.Link>
+                        <Nav.Link><Link className='menuitem' to='/blog'>Blogs</Link></Nav.Link>
                         <Nav.Link><Link className='menuitem' to='/contact'>Contact</Link></Nav.Link>
                         <Nav.Link className='btn custom-btn me-2 text-light rounded px-3 mx-3' href={resume} download>Download Resume</Nav.Link>
                        
