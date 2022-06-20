@@ -11,7 +11,7 @@ const Contact = () => {
     return (
         <Container>
 
-            <Row className='mx-auto my-5 d-flex justify-content-between align-items-start text-center gap-3'>
+            <Row className='mx-auto my-5 d-flex justify-content-between align-items-start text-center gap-3 '>
                 <Col sm='6' className=' text-center'>
                     <div className='login-text my-4'>
                         <img className='img-fluid p-3 w-75' src={anik2} alt='Anik' />
@@ -22,8 +22,8 @@ const Contact = () => {
                 </Col>
 
                 <Col sm>
-                    <h2 className='text-start custom-font-weight-600 custom-primary-color'>Contact Me For Any Query.</h2>
-                    <Card className='p-5 mt-5 w-75'>
+                    <h2 className='text-start custom-font-weight-600 custom-primary-color custom-text-mobile-center'>Contact Me For Any Query.</h2>
+                    <Card className='p-5 mt-5 w-75 custom-text-mobile-center'>
                         <h2 className='fs-5'>Send Your Details Here.</h2>
 
                         <form action="https://formsubmit.co/a250dc70983962361bf0d04422882f31" 

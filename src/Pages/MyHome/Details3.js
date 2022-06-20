@@ -66,14 +66,14 @@ const Details3 = () => {
             <div className='mt-5'>
                 <h2 className='text-center mt-5 pt-5'>Projects Screenshot</h2>
                 <hr className='w-50 mx-auto'></hr>
-                <div className='d-flex justify-content-center p-3 align-item-center w-100 my-2'>
-                    <img src={productDetails?.image_1} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
-                    <img src={productDetails?.image_2} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
+                <div className='d-flex justify-content-center p-3 align-item-center w-100 my-2 custom-grid-screenshot'>
+                    <img src={productDetails?.image_1} alt='project'  className='me-5 rounded border custom-screenshot-width' />
+                    <img src={productDetails?.image_2} alt='project'  className='me-5 rounded border custom-screenshot-width' />
                 </div>
 
-                <div className='d-flex justify-content-center p-3 align-item-center w-100 my-2'>
-                    <img src={productDetails?.image_2} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
-                    <img src={productDetails?.image_3} alt='project' style={{ width: '38rem' }} className='me-5 rounded border' />
+                <div className='d-flex justify-content-center p-3 align-item-center w-100 my-2 custom-grid-screenshot'>
+                    <img src={productDetails?.image_2} alt='project'  className='me-5 rounded border custom-screenshot-width' />
+                    <img src={productDetails?.image_3} alt='project'  className='me-5 rounded border custom-screenshot-width' />
                 </div>
 
 

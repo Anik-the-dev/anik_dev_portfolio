@@ -31,12 +31,12 @@ const Portfolio = () => {
         <Container>
             <h2 className='custom-dark-color custom-font-weight-600 fs-1 text-center'>Have a look at my <span className='custom-primary-color'>React </span>Projects</h2>
             <div className='mt-5'>
-                <div className='custom-grid my-5 py-5'>
+                <div className='custom-grid custom-grid-mobile my-5 py-5'>
                     {
                         projects.map(project => {
                             return (
                                 <div className='d-flex flex-column '>
-                                    <img src={project.image_main} alt='niksmoto project' className='img-fluid custom-card-img' />
+                                    <img src={project.image_main} alt='project' className='img-fluid custom-card-img' />
                                     <div className='custom-height'>
                                         <p className='text-start mt-3 custom-font-weight-600'>{project.name}</p>
                                         <p className='text-start custom-font-weight-500'>{project.description}</p>
