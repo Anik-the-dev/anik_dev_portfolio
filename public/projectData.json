@@ -43,16 +43,20 @@
 
     {
         "id":3,
-        "name": "Niks SEO Consultant",
-        "description":"My passion for technical SEO helps over 20+ clients to optimize their websites.I worked as a lead Technical SEO manager for Wedevs.I helped a retail shop 'duds fashion.",
-        "tools":"React,Html5, CSS3,Firebase, React Router",
-        "live":"https://nikseo22.web.app/",
-        "client":"https://github.com/Anik-the-dev/niks-seo-service",
-        "server":"",
-        "image_main":"images/seo/main.png",
-        "image_1":"images/seo/1.png",
-        "image_2":"images/seo/2.png",
-        "image_3":"images/seo/3.png"
+        "name": "Niks Quiz App",
+        "description":"It is a quiz app where a user can take a quiz of 10 questions. This project is built with react-native. Currently working on this project. Note: Expo Link Below ( You need to download expo app first, then scan the QR to run niksquiz app.)",
+        
+        "tools":"React Native,Firebase, Third-Party-Api",
+        "live":"https://expo.dev/@anik95/niksquiz?serviceType=classic&distribution=expo-go",
+        "client":"https://github.com/Anik-the-dev/niksquizz",
+        "server":"https://play.google.com/store/search?q=expo&c=apps",
+        "image_main":"images/quiz/main.png",
+        "image_1":"images/quiz/5.jpg",
+        "image_6":"images/quiz/main.jpg",
+        "image_2":"images/quiz/2.jpg",
+        "image_3":"images/quiz/4.jpg",
+        "image_4":"images/quiz/1.jpg",
+        "image_5":"images/quiz/6.jpg"
 
         
     }

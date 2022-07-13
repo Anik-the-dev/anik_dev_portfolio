@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
-import { Link, useNavigate } from 'react-router-dom';
-import duds from '../../images/dudsproject .png'
-import nikseo from '../../images/nikseoproject.png'
-import niksmoto from '../../images/niksmotoproject.png'
+import {useNavigate } from 'react-router-dom';
+
 
 const Portfolio = () => {
     const [projects, setProjects] = useState([])

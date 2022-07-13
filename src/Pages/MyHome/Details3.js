@@ -26,7 +26,7 @@ const Details3 = () => {
             <Row className='mx-auto my-5 d-flex justify-content-between align-items-center text-center gap-3'>
                 <Col sm='6' className=' text-center'>
                     <div className='login-text '>
-                        <img className='img-fluid p-3 rounded border' src={productDetails?.image_main} alt='project' />
+                        <img className='img-fluid p-3 rounded border w-75' src={productDetails?.image_6} alt='project' />
 
                     </div>
 
@@ -52,7 +52,8 @@ const Details3 = () => {
                             <span className='fw-bold'>Tools: </span>{productDetails?.tools}
                         </div>
                         <div className='d-flex justify-content-start p-3 align-item-center'>
-                            <a className='me-3 btn text-light' href={productDetails?.live} style={{ backgroundColor: "#FF5959" }}>Live Site</a>
+                            <a className='me-3 btn text-dark' href={productDetails?.server} style={{ backgroundColor: "#FF5959" }}>Expo Scanner</a>
+                            <a className='me-3 btn text-light' href={productDetails?.live} style={{ backgroundColor: "#3d3d3d" }}>Live Site</a>
                             <a className='me-3 btn text-dark' href={productDetails?.client} style={{ backgroundColor: "#ff891bd3" }}>Client Repo</a>
 
                         </div>
@@ -68,12 +69,16 @@ const Details3 = () => {
                 <hr className='w-50 mx-auto'></hr>
                 <div className='d-flex justify-content-center p-3 align-item-center w-100 my-2 custom-grid-screenshot'>
                     <img src={productDetails?.image_1} alt='project'  className='me-5 rounded border custom-screenshot-width' />
-                    <img src={productDetails?.image_2} alt='project'  className='me-5 rounded border custom-screenshot-width' />
+                    <img src={productDetails?.image_6} alt='project'  className='me-5 rounded border custom-screenshot-width' />
                 </div>
 
                 <div className='d-flex justify-content-center p-3 align-item-center w-100 my-2 custom-grid-screenshot'>
                     <img src={productDetails?.image_2} alt='project'  className='me-5 rounded border custom-screenshot-width' />
                     <img src={productDetails?.image_3} alt='project'  className='me-5 rounded border custom-screenshot-width' />
+                </div>
+                <div className='d-flex justify-content-center p-3 align-item-center w-100 my-2 custom-grid-screenshot'>
+                    <img src={productDetails?.image_4} alt='project'  className='me-5 rounded border custom-screenshot-width' />
+                    <img src={productDetails?.image_5} alt='project'  className='me-5 rounded border custom-screenshot-width' />
                 </div>
 
 
